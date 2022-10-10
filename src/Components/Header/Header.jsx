@@ -4,12 +4,15 @@ import "./Style/Header.css";
 
 const Header = () => {
   return (
-    <nav>
-      <ul>
-        <li>
+    <nav className="mainNav">
+      <ul className="navLinks">
+        <li className="navLink">
           <Link to="/">Home</Link>
-          <Link to="/product">Product</Link>
+        </li>
+        <li className="navLink">
           <Link to="Order">Order</Link>
+        </li>
+        <li className="navLink">
           <Link to="/about">About</Link>
         </li>
       </ul>

@@ -1,1 +1,33 @@
-/*# sourceMappingURL=Header.css.map */
+.mainNav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 9999999;
+  background-color: #000;
+  color: #fff;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mainNav .logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+}
+.mainNav .navLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mainNav .navLinks .navLink {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+.mainNav .navLinks .navLink a {
+  color: #fff;
+  text-decoration: none;
+}/*# sourceMappingURL=Header.css.map */

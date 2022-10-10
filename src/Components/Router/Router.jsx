@@ -3,7 +3,6 @@ import MainLayout from "../../Layout/MainLayout";
 import NotFound from "../Error/NotFound";
 import Home from "../Home/Home";
 import About from "../About/About";
-import Products from "../Products/Products";
 import Order from "../Orders/Orders";
 
 const route = createBrowserRouter([
@@ -13,11 +12,12 @@ const route = createBrowserRouter([
     children: [
       {
         path: "/",
+        loader: ()=>{
+          return(
+            fetch("tshirt.json")
+          )
+        },
         element: <Home></Home>,
-      },
-      {
-        path: "/product",
-        element: <Products></Products>,
       },
       {
         path: "/order",
