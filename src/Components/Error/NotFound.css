@@ -1,0 +1,14 @@
+.notFoundSection {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: felx;
+    justify-content: center;
+    align-items: center;
+}
+
+.notFoundSection img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
