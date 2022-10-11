@@ -1,0 +1,12 @@
+.grendPa, .grendPa div {
+  box-sizing: border-box;
+  border: 2px solid indianred;
+  margin: 0.5rem;
+  padding: 1rem;
+  border-radius: 0.54rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}

@@ -36,7 +36,8 @@ const Cart = ({ cart, hendelRemoveFromCart }) => {
         <h3>Buye More Get More Offer</h3>
       )}
       {cart.length === 2 && <h3>Thanks For Buying 2 T-shirt</h3>}
-      {cart.length === 5 || <h3>Thanks For Buying 5 T-shirt</h3>}
+      {/* {cart.length === 5 || <h3>Thanks For Buying 5 T-shirt</h3>} */}
+      {cart.length === 5 && <h3>Thanks For Buying 5 T-shirt</h3>}
     </div>
   );
 };

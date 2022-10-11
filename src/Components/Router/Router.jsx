@@ -4,6 +4,7 @@ import NotFound from "../Error/NotFound";
 import Home from "../Home/Home";
 import About from "../About/About";
 import Order from "../Orders/Orders";
+import GrnadPa from "../GrendPa/GrnadPa";
 
 const route = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const route = createBrowserRouter([
       {
         path: "/about",
         element: <About></About>,
+      },
+      {
+        path: "/grandpa",
+        element: <GrnadPa></GrnadPa>,
       },
       {
         path: "*",
