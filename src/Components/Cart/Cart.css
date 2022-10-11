@@ -1,0 +1,39 @@
+.cartItem{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+    gap: 1rem;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.removeBtn{
+    background-color: #f0c14b;
+    border: 1px solid;
+    padding: 0.5rem;
+    cursor: pointer;
+    margin-left: auto;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+}
+
+.oreng{
+    background: #f0c14b;
+    padding: 00.5rem;
+}
+
+.red{
+    background: red;
+    padding: 00.5rem;
+}
+
+.green{
+    background: green;
+    padding: 00.5rem;
+}
+
+.gry{
+    background: gray;
+    padding: 00.5rem;
+}
